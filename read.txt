@@ -1,0 +1,24 @@
+.ts or .tsx -> file extension
+tsc typescript.ts -> for running ts file
+ts -> js (because ts is not understandable ny the browser)
+comment -> // , /* */
+npm install -g typescript -> for npm install
+characteristics -> static types, error are catch at complie time, class based object oriented programmin with interfaces, generics, access modifier,
+support all modern ES6+ features and some ts only features, rich tooling, autocompletion, type checking, refactoring support.
+
+----------------------------------------------var 
+let const var
+
+declare type and value -> 
+let name3 : string = 'Amit';
+console.log(name3);
+
+declare type without value ->
+let name1 : string;
+//Only the type is defined; the value is undefined by default.
+
+declare value without type
+let name2 = 'Nacy';
+console.log(name2);
+//The type is inferred as string, and the value is initialized to 'Nacy'.
+
